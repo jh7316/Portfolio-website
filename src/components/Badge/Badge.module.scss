@@ -1,0 +1,21 @@
+.main{
+    background-color: rgba(256,256,256,0.5);
+    border: 3px solid white;
+    border-radius: 2rem;
+    padding: 0rem 1rem;
+    white-space: nowrap;
+    display: flex;
+
+    a{
+        color: rgb(183, 183, 183);
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        img{
+            height: 2rem;
+            //margin: 0.2rem;
+        }
+    }
+}

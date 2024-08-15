@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    padding: 2rem 2rem;
+
+    p{
+        text-align: center;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 0.8rem;
+        margin: auto;
+
+        input,textarea{
+            background-color: rgb(215, 231, 250);
+            color: black;
+            font-size: 1.5rem;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            width: 35vw;
+        }
+
+        textarea{
+            height: 6rem;
+        }
+
+        button{
+            margin-top: 2rem;
+            border-radius: 4rem;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.main{
+    padding: 3rem;
+    @media (max-width: 800px) { 
+        padding: 1rem;
+    }
+
+    .web,.ml{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .web{
+        padding: 4rem;
+        border: 1px solid #04bc32;
+        border-top: none;
+        border-right: 2px solid #04bc32;
+        border-bottom: none;
+        border-left: 2px solid #04bc32;
+    }
+
+    .ml{
+        padding: 4rem;
+        border: 1px solid #21f5f6;
+        border-top: none;
+        border-right: 2px solid #21f5f6;
+        border-bottom: none;
+        border-left: 2px solid #21f5f6;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+}

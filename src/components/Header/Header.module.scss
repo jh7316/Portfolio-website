@@ -1,0 +1,22 @@
+.main{
+    menu{
+        z-index: 100000;
+        position: fixed;
+        top: 0rem;
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+        right: 2rem;
+
+        li{
+            background-color: white;
+            color: black;
+            padding: 0.2rem 0.8rem;
+            border-radius: 6rem;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
